@@ -8,7 +8,9 @@ Sugar.extend();
 // });
 
 var options = {}
-var cwd = "/Users/sirisak/Google Drive/Git_CLIENT/Node.js/node-OnlineOffline"
+
+// var cwd = "/Users/sirisak/Google Drive/Git_CLIENT/Node.js/node-OnlineOffline"
+var cwd = "/Users/sirisak/Desktop/SharedLocal/BallOnly/github/- to be git/node-OnlineOffline"
 
 // options["cwd"]=cwd
 options = {cwd:cwd}

@@ -10,7 +10,10 @@ gulp rabbitmq --user sirisak --messagesLength 10
 gulp rabbitmq --user sirisak --messageId 10
 gulp rabbitmq --user admin --messageId 10
 gulp watcher2server
-gulp memoByMongoDb
+gulp memo
+=gulp memoByMongoDb
+gulp javascript
+=gulp nodeOnlineOffline
 `
 
 module.exports = function () {

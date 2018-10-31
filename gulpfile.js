@@ -30,6 +30,9 @@ gulp.task('server', tasks.nodeOnlineOffline);
 gulp.task('memoByMongoDb', tasks.memoByMongoDb);
 gulp.task('memo', tasks.memoByMongoDb);
 
+gulp.task('nodeOnlineOffline', tasks.nodeOnlineOffline);
+gulp.task('javascript', tasks.nodeOnlineOffline);
+gulp.task('js', tasks.nodeOnlineOffline);
 // gulp.task('server', shell.task([
 //   'node app.js&'
 //   ],
